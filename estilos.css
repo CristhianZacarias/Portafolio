@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+html{
+    /* Permite desilizar cuando hago clic en los links del menu */
+    scroll-behavior: smooth;
+}
+/* Menu */
+.contenedor-header{
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+/* Nombre */
+.contenedor-header header .logo a{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: #1CB698;
+    text-decoration: none;
+}
+/* Listas */
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+/* Espacio entre listas y posicion */
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: #FFF;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+/* Pasar el mouse encima de las listas y resaltar */
+.contenedor-header header nav ul li a:hover{
+    color: #1CB698;
+}
+/* Esconder icono de menu cuando se muestre en modo escritorio */
+.nav-responsive{
+    background-color: #1CB698;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+/* Seccion inicio */
+
+.inicio{
+    background: linear-gradient(to top, rgba(30, 35, 38, .8), rgba(30, 35, 38, 1)),
+    url(img/fondo.png);
+    background-size: cover;
+    height: 100vh;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+}
+
+.inicio .contenido-banner{
+    padding: 20px;
+    background-color: #1e2326;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.inicio .contenido-banner img{
+    margin-top: 40px;
+    border: 10px solid #1CB698;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.inicio .contenido-banner h1{
+    margin-top: 40px;
+    font-size: 36px;
+    font-family: 'Righteous';
+}
+.inicio .contenido-banner h2{
+    font-size: 15px;
+    font-weight: normal;
+}
+/* Acomodar iconos */
+.inicio .contenido-banner .redes a{
+    color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #FFF;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+/* Resaltar iconos */
+.inicio .contenido-banner .redes a:hover{
+    background-color: #1CB698;
+}
