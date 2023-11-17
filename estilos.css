@@ -624,3 +624,47 @@ html{
     display: inline-block;
     margin-right: 20px;
 }
+/* Seccion de footer */
+footer{
+    background-color: #252A2E;
+    color: #FFF;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+footer .redes{
+    margin-bottom: 20px;
+}
+footer .redes a{
+    color: #FFF;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #FFF;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+/* Resaltar iconos */
+footer .redes a:hover{
+    background-color: #1CB698;
+}
+/* Acomodar fleccha hacia arriba */
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #1CB698;
+    color: #FFF;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+}
