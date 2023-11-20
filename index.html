@@ -17,15 +17,15 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#sobremi">Sobre mi</a></li>
-                    <li><a href="#skills">Habilidades</a></li>
-                    <li><a href="#curriculum">Curriculum</a></li>
-                    <li><a href="#portafolio">Portafolio</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Habilidades</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
@@ -54,11 +54,10 @@
         <div class="contenido-seccion">
             <h2>Sobre Mi</h2>
             <p><span>Hola, Soy Cristhian Zacarias</span>
-                Técnico superior en desarrollo de aplicaciones y plataformas con 
+                Ingeniero en Desarrollo y Gestión de Software, con 
                 amplios conocimientos en back-end, desarrollados a través de 
-                proyectos propios. Busco desarrollar mi carrera, ayudando a 
-                TechSoft Solutions, contribuyendo con mis habilidades en C#, 
-                ASP.NET y Azure para lograr diseños finales que satisfagan las 
+                proyectos propios. Busco desarrollar mi carrera, contribuyendo 
+                con mis habilidades, para lograr diseños finales que satisfagan las 
                 necesidades y preferencias de los clientes.</p>
 
                 <div class="fila">
@@ -67,27 +66,27 @@
                         <h3>Datos Personales</h3>
                         <ul>
                             <li>
-                                <strong>Cumpleaños</strong>
-                                14-04-2020
+                                <strong>Cumpleaños:</strong>
+                                14-04-2000
                             </li>
                             <li>
-                                <strong>Teléfono</strong>
+                                <strong>Teléfono:</strong>
                                 +52 722 3608 148
                             </li>
                             <li>
-                                <strong>Email</strong>
+                                <strong>E-mail:</strong>
                                 cristhianzacarias@gmail.com
                             </li>
                             <li>
-                                <strong>WebSite</strong>
+                                <strong>WebSite:</strong>
                                 www.cristhianzacarias.com
                             </li>
                             <li>
-                                <strong>Dirección</strong>
-                                Ejidos de Santa Maria Tetitla, Otzolotepec, C.P 52085
+                                <strong>Dirección:</strong>
+                                Ej. de Santa Maria Tetitla, Otzolotepec, C.P 52085
                             </li>
                             <li>
-                                <strong>Cargo</strong>
+                                <strong>Cargo:</strong>
                                 <span>Ingeniero</span>
                             </li>
                         </ul>
@@ -115,7 +114,7 @@
                             </div>
                             <div class="interes">
                                 <i class="fa-solid fa-futbol"></i>
-                                <span>Futbol</span>
+                                <span>Fútbol</span>
                             </div>
                             <div class="interes">
                                 <i class="fa-solid fa-shop"></i>
@@ -146,7 +145,7 @@
             <div class="fila">
                 <!-- Technical skill -->
                 <div class="col">
-                    <h3>Habilidades Tecnicas</h3>
+                    <h3>Habilidades Técnicas</h3>
                     <div class="skill">
                         <span>JavaScript</span>
                         <div class="barra-skill">
@@ -244,8 +243,8 @@
                 <div class="col izquierda">
                     <h3>Educación</h3>
                     <div class="item izq">
-                        <h4>Tecnico en Programación</h4>
-                        <span class="casa">Colegio de Estudios Cientificos y Tecnologicos del Estado de México </span>
+                        <h4>Técnico en Programación</h4>
+                        <span class="casa">Colegio de Estudios Científicos y Tecnológicos del Estado de México </span>
                         <span class="fecha">2015 - 2018</span>
                         <p>Analizar, diseñar, desarrollar, 
                             instalar y mantener software de aplicación 
@@ -257,7 +256,7 @@
                     </div>
                     <div class="item izq">
                         <h4>Tecnico Superior Universitario en Tecnologias de la Informacion y Comunicación</h4>
-                        <span class="casa">Universidad Tecnologica del Valle de Toluca</span>
+                        <span class="casa">Universidad Tecnológica del Valle de Toluca</span>
                         <span class="fecha">2018 - 2020</span>
                         <p>Analizar, diseñar, desarrollar, 
                             instalar y mantener software de aplicación 
@@ -269,7 +268,7 @@
                     </div>
                     <div class="item izq">
                         <h4>Ingenieria en Desarrollo y Gestión de Software</h4>
-                        <span class="casa">Universidad Tecnologica del Valle de Toluca</span>
+                        <span class="casa">Universidad Tecnológica del Valle de Toluca</span>
                         <span class="fecha">2020 - 2022</span>
                         <p>Analizar, diseñar, desarrollar, 
                             instalar y mantener software de aplicación 
@@ -284,7 +283,7 @@
                 <div class="col derecha">
                     <h3>Experiencia de trabajo</h3>
                     <div class="item der">
-                        <h4>Documentacion a entrevistas TIC | Practicante</h4>
+                        <h4>Documentación a entrevistas TIC | Practicante</h4>
                         <span class="casa">Universidad Tecnologica del Valle de Toluca</span>
                         <span class="fecha">Mayo 2020 - Agosto 2020</span>
                         <p>Analizar, diseñar, desarrollar, 
@@ -417,5 +416,7 @@
             <a href="#"><i class="fa-solid fa-rss"></i></a>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
