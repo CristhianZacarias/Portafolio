@@ -704,6 +704,10 @@ footer .arriba{
     .sobremi .fila .col{
         width: fit-content;
     }
+    .sobremi .fila .interes{
+        margin-left: 40px;
+    }
+
     /* Acomodar habilidades en una columa */
     .skills .fila{
         display: block;
@@ -714,6 +718,7 @@ footer .arriba{
     .skills .fila .col .barra-skill{
         width: 100%;
     }
+
     /* Acomodar el curriculum en una columna */
     .curriculum .fila{
         display: block;
@@ -724,6 +729,7 @@ footer .arriba{
     .curriculum .fila .derecha{
         margin-left: 20px;
     }
+
     /* Acomodar el portafolio */
     .portafolio .galeria{
         display: block;
