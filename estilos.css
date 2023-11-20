@@ -56,6 +56,7 @@ html{
 .nav-responsive{
     background-color: #1CB698;
     color: #FFF;
+    padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     display: none;
@@ -91,7 +92,7 @@ html{
 
 .inicio .contenido-banner h1{
     margin-top: 40px;
-    font-size: 36px;
+    font-size: 42px;
     font-family: 'Righteous';
 }
 .inicio .contenido-banner h2{
@@ -250,7 +251,7 @@ html{
     padding: 0 20px;
 }
 .skills .fila .col h3{
-    font-size: 20px;
+    font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
 }
@@ -290,7 +291,7 @@ html{
 }
 /* Creacion del porcentaje con javascript para cada habilidad */
 .skills .skill .javascript{
-    width: 0;
+    width: 0%;
     animation: 2s javascript forwards;
 }
 @keyframes javascript {
@@ -298,7 +299,7 @@ html{
     100%{width: 75%;}
 }
 .skills .skill .htmlcss{
-    width: 0;
+    width: 0%;
     animation: 2s htmlcss forwards;
 }
 @keyframes htmlcss {
@@ -306,7 +307,7 @@ html{
     100%{width: 60%;}
 }
 .skills .skill .bootstrap{
-    width: 0;
+    width: 0%;
     animation: 2s bootstrap forwards;
 }
 @keyframes bootstrap {
@@ -314,7 +315,7 @@ html{
     100%{width: 70%;}
 }
 .skills .skill .wordpress{
-    width: 0;
+    width: 0%;
     animation: 2s wordpress forwards;
 }
 @keyframes wordpress {
@@ -322,7 +323,7 @@ html{
     100%{width: 65%;}
 }
 .skills .skill .mysql{
-    width: 0;
+    width: 0%;
     animation: 2s mysql forwards;
 }
 @keyframes mysql {
@@ -331,7 +332,7 @@ html{
 }
 
 .skills .skill .comunicacion{
-    width: 0;
+    width: 0%;
     animation: 2s comunicacion forwards;
 }
 @keyframes comunicacion {
@@ -339,7 +340,7 @@ html{
     100%{width: 55%;}
 }
 .skills .skill .trabajo{
-    width: 0;
+    width: 0%;
     animation: 2s trabajo forwards;
 }
 @keyframes trabajo {
@@ -347,7 +348,7 @@ html{
     100%{width: 85%;}
 }
 .skills .skill .creatividad{
-    width: 0;
+    width: 0%;
     animation: 2s creatividad forwards;
 }
 @keyframes creatividad {
@@ -355,7 +356,7 @@ html{
     100%{width: 70%;}
 }
 .skills .skill .dedicacion{
-    width: 0;
+    width: 0%;
     animation: 2s dedicacion forwards;
 }
 @keyframes dedicacion {
@@ -363,7 +364,7 @@ html{
     100%{width: 80%;}
 }
 .skills .skill .cumplimiento{
-    width: 0;
+    width: 0%;
     animation: 2s cumplimiento forwards;
 }
 @keyframes cumplimiento {
@@ -609,7 +610,7 @@ html{
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-width: 350pc;
+    max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -662,7 +663,7 @@ footer .arriba{
     color: #FFF;
     position: absolute;
     left: 50%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
     top: -25px;
     border-radius: 50%;
     line-height: 50px;
@@ -683,7 +684,7 @@ footer .arriba{
         display: block;
         position: absolute;
         right: 0;
-        top: 75%;
+        top: 75px;
         background-color: #252A2E;
         width: 180px;
     }
@@ -705,7 +706,7 @@ footer .arriba{
         width: fit-content;
     }
     .sobremi .fila .interes{
-        margin-left: 40px;
+        margin-left: 65px;
     }
 
     /* Acomodar habilidades en una columa */
